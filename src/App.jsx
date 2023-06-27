@@ -4,7 +4,8 @@ function App() {
   
   return (
     <>
-    <div>Merhaba Ben Devrim </div>  
+     <div>Merhaba Ben Fatih</div>
+     <div>Merhaba Ben Devrim </div>  
     </>
   )
 }
