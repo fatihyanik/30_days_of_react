@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import SingleCard from './components/SingleCard';
 import { useState } from 'react';
