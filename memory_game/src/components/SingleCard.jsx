@@ -1,4 +1,5 @@
 // SingleCard bileşeni tanımlanıyor. Bu bileşen, bir kartın görsel temsilini oluşturur.
+// eslint-disable-next-line react/prop-types
 const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
   // Kart tıklama işlemini ele alan fonksiyon.
   const handleClick = () => {
@@ -16,6 +17,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
         {/* Kartın ön yüzü */}
         <img
           className='front'
+          // eslint-disable-next-line react/prop-types
           src={card.src} // Kartın görüntüsünün src'si.
           alt="card-front" // Görüntü yüklenemezse gösterilecek alternatif metin.
         />
